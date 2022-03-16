@@ -1,0 +1,20 @@
+
+@media (min-width: 992px){
+    .col-slixlg-3 {
+        flex: 0 0 auto;
+        width: 32%;
+    }
+    .slider img{
+        height: 400px;
+    }
+    }
+    @media (min-width: 768px) and (max-width:992px){
+        .slider img{
+            height: 250px;
+        }
+    }
+    @media (max-width: 768px){
+        .slider img{
+            height: 180px;
+        }
+    }

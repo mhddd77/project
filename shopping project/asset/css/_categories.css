@@ -1,0 +1,33 @@
+.cat-title h4{
+    text-align: center;
+}
+.cat-title span{
+    position: relative;
+}
+.cat-title span::after{
+    content:' ';
+    border-bottom: 1px solid green;
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    top: 17px;
+    right: -85px;
+}
+.cat-title span::before{
+    content:' ';
+    border-bottom: 1px solid green;
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    top: 17px;
+    left: -85px;
+}
+.cat-box p{
+    text-align: center;
+    color: #28367f;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.cat-box{
+    margin: 10px;
+}

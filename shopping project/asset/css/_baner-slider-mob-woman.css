@@ -1,0 +1,25 @@
+.baner img{
+    height: 254.391px;
+}
+.slider-new-title-color-mob h2{
+    border-bottom: 4px solid #f9bc00;
+
+}
+.slider-new-card-color-mob a{
+    background-color:#f9bc00 ;
+}
+.slider-new-card-color-mob a:hover{
+    background-color:#ecb100 ;
+
+}
+.slider-new-title-color-woman h2{
+    border-bottom: 4px solid #e88060;
+
+}
+.slider-new-card-color-woman a{
+    background-color:#e88060 ;
+}
+.slider-new-card-color-woman a:hover{
+    background-color:#e88060 ;
+
+}

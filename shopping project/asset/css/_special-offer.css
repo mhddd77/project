@@ -1,0 +1,107 @@
+.spacial-offer-title{
+    background-color: #00b4b0;
+    position: relative;
+    border-radius: 10px;
+}
+.spacial-offer-title h2{
+    padding: 5px 0px 5px 5px;
+    text-align: center;
+    color: #fff;
+}
+.custom-special-offer-nav-tab{
+    border: none !important;
+}
+.custom-special-offer-nav-link{
+    color:#81858b ;
+}
+.custom-special-offer-nav-link:hover{
+    color: 
+    #62666d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: transparent;
+}
+
+.nav-tabs .nav-link.active{
+    color: #00b4b0;
+    border: none;
+    border-bottom:3px solid 
+    #00b4b0;
+
+}
+.custom-special-offer-tab-content{
+    padding-top: 15px;
+}
+.special-offer-digi-right-img{
+    max-width: 200px;
+    transition: all 0.5s linear;
+}
+.special-offer-digi-right-img:hover{
+    transform: scale(1.1);
+}
+
+.special-offer-digi-right-text{
+    padding: 8px;
+}
+.special-offer-digi-right-text h4{
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 10px;
+}
+.special-offer-digi-right-text p{
+    font-size: 14px;
+    margin-bottom:15px ;
+}
+.special-offer-digi-right-text .special-offer-price span{
+    margin-left:3px ;
+    font-size: 18px;
+}
+.special-offer-digi-right-text .special-offer-price s{
+    color: #e6123d;
+    font-size: 14px;
+}
+.special-offer-digi-right-text #demo, #demo-1, #demo-2, #demo-3, #demo-4, #demo-5, #demo-6
+, #demo-7, #demo-8, #demo-9, #demo-10, #demo-11,#demo-12,#demo-13,#demo-14
+,#demo-15,#demo-16,#demo-17,#demo-18,#demo-19,#demo-20,#demo-21,#demo-22
+,#demo-23,#demo-24,#demo-25,#demo-26,#demo-27,#demo-28,#demo-29,#demo-30,#demo-31,#demo-32{
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+    /* margin-top: 15px; */
+    margin-bottom: 0px !important;
+    color:#00b4b0;
+    font-size: 22px;
+}
+.special-offer-time-day{
+    justify-content: center;
+}  
+.special-offer-time-day span{
+    padding: 0px 4px 4px 4px;
+    font-size: 14px;
+}
+.special-offer-price .special-offer-price-dar{
+    background-color: 
+    
+#00b4b0;
+    width: 60px;
+    height: 30px;
+    display: flex;
+}
+.special-offer-price .special-offer-price-dar p{
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .special-offer-nav{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width:515px) and (max-width:585px){
+    .special-offer-nav{
+        display: block;
+        justify-content: flex-start !important;
+        
+    }
+}

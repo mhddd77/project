@@ -1,0 +1,75 @@
+/* start navbar style */
+.nav {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1200;
+}
+
+.nav a {
+    float: right;
+    color: hsl(0, 0%, 43%);
+    font-size: 14px;
+    padding: 7px 16px;
+    text-align: center;
+
+}
+
+.nav a:hover {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.fa-brands {
+    font-size: 44px;
+    color: tomato;
+    cursor: default;
+    padding: 0px 8px 0px 10px;
+}
+
+.nav .icon {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .nav a {
+        display: none;
+    }
+
+    .nav a.icon {
+        display: block;
+        position: absolute;
+        left: 0px;
+    }
+
+    .nav.res {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 190px;
+
+    }
+
+    .nav.res a.menu {
+        display: block;
+        position: relative;
+        top: 40px;
+
+    }
+
+    .nav.res>i {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .nav.res a.icon {
+        position: absolute;
+    }
+}
+
+/* end navbar style */
