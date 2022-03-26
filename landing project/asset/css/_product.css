@@ -1,0 +1,107 @@
+.breadcrumb{
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+}
+.custom-product-breadcrumb li a{
+    color: #00b4b0;
+}
+.breadcrumb .active{
+    color: rgb(54, 54, 54);
+}
+.product-text .product title h3{
+    font-size: 22px;
+}
+.product-point i{
+    color: #E6C300;
+}
+.product-point a{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.product-price-dar{
+    background-color: #00b4b0;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    color: #fff;
+}
+.product-price-dar p{
+    align-self: center;
+}
+.special-offer-price s{
+    color: #ee384e;
+    font-size: 14px;
+}
+.product-feature div{
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    padding: 3px 0px;
+}
+.product-feature div span{
+    font-size: 16px;
+    color: #000;
+}
+.product-feature-none{
+    display: none;
+}
+.fa-heart{
+    color: #ee384e !important;
+}
+.fa-share,.fa-bell{
+    color: rgb(105, 105, 105) !important;
+}
+.product-buy .custom-product-buy-btn{
+    background-color: #00b4b0;
+    color: #fff;
+}
+.custom-buy-modal-body p{
+    font-size: 14px;
+    color: #5a5a5a;
+    padding: 3px 0px;
+}
+.custom-buy-modal-body p span{
+    font-size: 16px;
+    color: #000;
+}
+.custom-buy-color span{
+    margin-left:30px !important;
+}
+.custom-buy-color .form-check{
+    padding-left: 20px;
+}
+.custom-buy-modal-body p:last-child{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.product-buy-number label{
+    color: #00b4b0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.product-buy-number input{
+    border-radius: 3px;
+    padding: 5px;
+    width: 40px;
+    height: 25px;
+    border: 1px solid #00b4b0;
+    outline: 0;
+}
+.custom-buy-modal-header{
+    background-color: #00b4b0;
+    color: #fff;
+}
+.custom-buy-modal-body p{
+    margin-bottom: 7px;
+}
+.custom-buy-color-form-check-input:checked{
+    background-color: #00b4b0;
+    border-color: #00b4b0;
+}
+.custom-buy-color-form-check-input:focus{
+    box-shadow: none;
+}
+.product-feature p{
+    color: #0d6efd;
+    cursor: pointer;
+    margin-top: 5px;
+}
