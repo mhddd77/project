@@ -1,0 +1,110 @@
+body{
+    direction: rtl;
+    background-color: #bdbdbd;
+
+}
+.main-id{
+    display: flex;
+    height: 200vh;
+}
+.main-id .nav{
+    height: 100vh;
+    background-color: rgb(170, 85, 85);
+    border-radius: 90px 0px 0px 0px ;
+    width: 250px;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.main-id nav .logo{
+    font-size: 38px;
+    padding: 2rem 0;
+    width: 80%;
+    margin-bottom: 20px ;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    text-align: center;
+    /* text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center; */
+}
+.bar{
+    /* background-color: #dfdfdf; */
+
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.bar::-webkit-scrollbar {
+    display: none;
+  }
+.bar li{
+    padding:5px 6px;
+    transition: all 0.3s linear;
+
+}
+.bar li a{
+    color: #9f9f9f;
+    transition: all 0.2s linear;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: hidden;
+
+}
+
+.bar li a:hover{
+    color: rgb(154, 53, 249);
+}
+.bar li:hover{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+}
+.content{
+    padding: 0px 5px ;
+}
+.bar li a i{
+    margin-left: 15px;
+
+}
+.bar li i.fa-message{
+    vertical-align: -3px;
+}
+.bar li a  i.fa-product-hunt{
+    vertical-align: -2px;
+}
+/* .nav-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+} */
+.app-version {
+    color: #efefef;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.mini-sidebar.nav{
+    width: 70px;
+    overflow-x: hidden;
+    transition: all 0.3s linear;
+}
+.mini-sidebar.nav ul li a i{
+margin-left: 700px;
+}
+.mini-sidebar.nav .logo{
+opacity: 0;
+}
+.toggle{
+    transition: all 0.3s linear;
+}
+.mini-sidebar.nav .toggle{
+    transform: rotate(180deg);
+}
