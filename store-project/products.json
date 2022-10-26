@@ -1,0 +1,76 @@
+{
+    "products" :[
+        {
+            "title" : "Guuci Whatch",
+            "price" : "1069",
+            "image" : "./asset/image/w-1.jpeg",
+            "id" : "1"
+        },
+        {
+            "title" : "Arnold Whatch",
+            "price" : "499",
+            "image" : "./asset/image/w-2.jpeg",
+            "id" : "2"
+        },
+        {
+            "title" : "yamaha Whatch",
+            "price" : "2089",
+            "image" : "./asset/image/w-3.jpeg",
+            "id" : "3"
+        },
+        {
+            "title" : "Hublot Whatch",
+            "price" : "689",
+            "image" : "./asset/image/w-4.jpeg",
+            "id" : "4"
+        },
+        {
+            "title" : "Glashü Whatch",
+            "price" : "1799",
+            "image" : "./asset/image/w-5.jpeg",
+            "id" : "5"
+        },
+        {
+            "title" : "Frederi Whatch",
+            "price" : "1090",
+            "image" : "./asset/image/w-6.jpeg",
+            "id" : "6"
+        },
+        {
+            "title" : "Corum Whatch",
+            "price" : "439",
+            "image" : "./asset/image/w-7.jpeg",
+            "id" : "7"
+        },
+        {
+            "title" : "Bell& Whatch",
+            "price" : "2899",
+            "image" : "./asset/image/w-8.jpeg",
+            "id" : "8"
+        },
+        {
+            "title" : "Breguet Whatch",
+            "price" : "869",
+            "image" : "./asset/image/w-9.jpeg",
+            "id" : "9"
+        },
+        {
+            "title" : "IWC Whatch",
+            "price" : "1039",
+            "image" : "./asset/image/w-10.jpeg",
+            "id" : "10"
+        },
+        {
+            "title" : "LeCoultre Watch",
+            "price" : "999",
+            "image" : "./asset/image/w-11.jpeg",
+            "id" : "11"
+        },
+        {
+            "title" : "Maurice Watch",
+            "price" : "479",
+            "image" : "./asset/image/w-12.jpeg",
+            "id" : "12"
+        }
+    ]
+}
