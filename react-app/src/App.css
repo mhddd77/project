@@ -1,0 +1,56 @@
+
+.center{
+    text-align: center;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input , textarea{
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.07);
+    background-color: rgb(132, 132, 132);
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+textarea{
+    height: 100px;
+}
+input::placeholder , textarea::placeholder{
+    color: rgb(194, 194, 194);
+}
+.btn{
+    padding: 10px 15px;
+    width: 150px;
+    margin-top: 15px;
+    background-color: rgb(34, 34, 34);
+    color: #ffff;
+    font-size: 22px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.label-1{
+color: rgb(194, 194, 194);
+}
+.label-2{
+    color: rgb(194, 194, 194);
+
+}
