@@ -18,15 +18,20 @@ closeIcon.addEventListener("click", () => {
 
 let cart = []
 class GetProducts {
-    async api() {
-        try {
-            const dataJson = await fetch("products.json")
-            const data = await dataJson.json()
-            const products = data.products
-            return products
-        } catch (error) {
-            console.log(error)
-        }
+    // async api() {
+    //     try {
+    //         const dataJson = await fetch("products.json")
+    //         const data = await dataJson.json()
+    //         const products = data.products
+    //         return products
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
+    // }
+    async api(){
+        const dataJson = axios.get("products.json")
+        return dataJson
+
     }
 }
 
@@ -189,8 +194,11 @@ class ShowProducts {
 }
 
 class Storage {
-    static saveProducts(products) {
-        localStorage.setItem("products", JSON.stringify(products))
+    // static saveProducts(products) {
+    //     localStorage.setItem("products", JSON.stringify(products))
+    // }
+    static saveProducts(products){
+        localStorage.setItem("products",JSON.stringify(products))
     }
     static getProducts(id) {
         const products = JSON.parse(localStorage.getItem("products"))
@@ -216,8 +224,9 @@ document.addEventListener("DOMContentLoaded", () => {
     show.initApp()
     getDtat.api()
         .then(data => {
-            show.view(data)
-            Storage.saveProducts(data)
+            console.log(data)
+            show.view(data.data.products)
+            Storage.saveProducts(data.data.products)
         }).then(() => {
             show.addToCart()
         })
